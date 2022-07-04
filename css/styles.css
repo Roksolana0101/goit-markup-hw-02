@@ -102,16 +102,7 @@ font-weight: 900;
     border: none;
     letter-spacing: 0.06em;}
 .hero-button:hover, .hero-button:focus {background-color: var(--accent-txt-cl);}
-.buttot-txt {
-    color: var(--hero-txt-cl);
-    font-weight: 700;
-        font-size: 16px;
-        line-height: calc(30/16);
-        
-    
-        display: flex;
-        letter-spacing: 0.06em;
-}
+
 /*Specialty section*/
 .speciality-item {
     color: var(--main-txt-cl);
@@ -125,8 +116,7 @@ font-weight: 900;
 {
     color: var(--secondary-txt-cl);
     font-size: 14px;
-    line-height: cslc(24/14);
-  
+    line-height: calc(24/14);
     letter-spacing: 0.03em;}
     /*work cards*/
  .cards-titel
@@ -179,7 +169,7 @@ font-weight: 900;
 .footer {background-color: var(--dark-bg-cl) ;}
 .footer-mail,
 .footer-phone {
-    color: var(--hero-txt-cl);
+    color: rgba(255, 255, 255, 0.6);
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16/14);
