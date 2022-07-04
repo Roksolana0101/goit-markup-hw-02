@@ -97,10 +97,10 @@ font-weight: 900;
     font-family: inherit;
     cursor: pointer;
     font-weight: 700;
-        font-size: 16px;
-        line-height: calc(30/16);
-        border: none;
-         letter-spacing: 0.06em;}
+    font-size: 16px;
+    line-height: calc(30/16);
+    border: none;
+    letter-spacing: 0.06em;}
 .hero-button:hover, .hero-button:focus {background-color: var(--accent-txt-cl);}
 .buttot-txt {
     color: var(--hero-txt-cl);
@@ -124,7 +124,6 @@ font-weight: 900;
 .specialty-desc
 {
     color: var(--secondary-txt-cl);
-    font-weight: 400;
     font-size: 14px;
     line-height: cslc(24/14);
   
@@ -154,7 +153,6 @@ font-weight: 900;
     .team-card-description 
     {
         color: var(--secondary-txt-cl);
-        font-weight: 400;
         font-size: 16px;
         line-height: calc(19/16);
         letter-spacing: 0.03em;}
@@ -171,7 +169,6 @@ font-weight: 900;
 }
 .gallery-desc {
     color: var(--secondary-txt-cl);
-    font-weight: 400;
         font-size: 16px;
         line-height: calc(30/16);
         /* identical to box height, or 188% */
@@ -198,10 +195,7 @@ font-weight: 900;
 .footer-address {
     color: var(--hero-txt-cl);
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
      line-height: calc(24/14);
-        /* or 171% */
-    
     letter-spacing: 0.03em;
 }
