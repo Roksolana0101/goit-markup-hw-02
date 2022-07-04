@@ -33,9 +33,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26/16);
-        /* identical to box height, or 162% */
-    
-    text-align: center;
     letter-spacing: 0.03em;
     border: none;
 }
@@ -94,16 +91,16 @@ font-weight: 900;
     text-transform: uppercase;
 }
 /*hero button*/
-..hero-button {
+.hero-button {
+    color: var(--hero-txt-cl);
+    background-color: var(--accent-txt-cl);
+    font-family: inherit;
+    cursor: pointer;
     font-weight: 700;
-    font-size: 16px;
-    line-height: calk(30/16);
-    /* identical to box height, or 188% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;}
+        font-size: 16px;
+        line-height: calc(30/16);
+        border: none;
+         letter-spacing: 0.06em;}
 .hero-button:hover, .hero-button:focus {background-color: var(--accent-txt-cl);}
 .buttot-txt {
     color: var(--hero-txt-cl);
@@ -137,8 +134,7 @@ font-weight: 900;
      { color: var(--main-txt-cl);
         font-weight: 700;
             font-size: 36px;
-            line-height: cslc(42/36);
-            text-align: center;
+            line-height: calc(42/36);
             letter-spacing: 0.03em;
      }
      /* Our team section */
@@ -147,17 +143,13 @@ font-weight: 900;
     font-weight: 700;
         font-size: 36px;
         line-height: calc(42/36);
-        text-align: center;
         letter-spacing: 0.03em;
   }
-  .team-cards-titel {
+  .team-name {
     color: var(--main-txt-cl);
     font-weight: 500;
     font-size: 16px;
     line-height: calc(19/16);
-    /* identical to box height */
-
-    text-align: center;
     letter-spacing: 0.03em;}
     .team-card-description 
     {
@@ -165,9 +157,6 @@ font-weight: 900;
         font-weight: 400;
         font-size: 16px;
         line-height: calc(19/16);
-      
-    
-        text-align: center;
         letter-spacing: 0.03em;}
         /*Portfolio*/
 .portfolio-nav-button {background-color: #F5F4FA;}
